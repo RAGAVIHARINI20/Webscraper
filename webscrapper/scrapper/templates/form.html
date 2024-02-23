@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Create Project </title>
+</head>
+
+<body>
+<h1>Create Project</h1>
+<form action="" method="POST">
+{% csrf_token %}
+Project Name <input type="text" name="project"/><br/>
+url <br/>
+<textarea cols="35" rows="8" name="url">
+</textarea><br/>
+<input type="submit" value="Submit"/>
+</form>
+</body>
+
+</html>

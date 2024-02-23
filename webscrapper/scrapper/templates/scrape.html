@@ -1,0 +1,20 @@
+<body>
+<h1>Scrape Project</h1>
+<form action="" method="POST">
+{% csrf_token %}
+
+url <br/>
+<textarea cols="35" rows="8" name="url">
+</textarea><br/>
+    <label for="cars">Choose a file format:</label>
+
+<select name="format">
+  <option value="excel">Excel</option>
+  <option value="csv">CSV</option>
+  <option value="JSON">JSON</option>
+</select>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+
+</html>
